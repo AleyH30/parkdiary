@@ -16,7 +16,7 @@ const App = () => {
                 <Route path='/parks' element={<SearchResults />} />
                 <Route path='/parks/:parkCode' element={<ParkInfo />} />
                 <Route path='/about' element={<About />} />
-                <Route path='*' element={<NotFound />} />
+                {/*<Route path='*' element={<NotFound />} />*/}
             </Routes>
         </HashRouter>
     )
