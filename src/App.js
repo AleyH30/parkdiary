@@ -5,7 +5,7 @@ import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchResults from './Pages/SearchResults/SearchResults';
 import ParkInfo from './Pages/ParkInfo/ParkInfo';
 import About from './Pages/About/About';
-import NotFound from './Pages/NotFound/NotFound';
+//import NotFound from './Pages/NotFound/NotFound';
 
 
 const App = () => {
