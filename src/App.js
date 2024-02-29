@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './Pages/Home/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchResults from './Pages/SearchResults/SearchResults';
 import ParkInfo from './Pages/ParkInfo/ParkInfo';
 import About from './Pages/About/About';
@@ -10,7 +10,7 @@ import NotFound from './Pages/NotFound/NotFound';
 
 const App = () => {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/parks' element={<SearchResults />} />
@@ -18,7 +18,7 @@ const App = () => {
                 <Route path='/about' element={<About />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
