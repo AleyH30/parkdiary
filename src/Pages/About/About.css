@@ -1,0 +1,22 @@
+.about-blurb{
+    margin: 10% auto;
+    width: 65%;
+}
+.about-blurb-header{
+    font-size: 40px;
+    color:rgb(130, 130, 130);
+    font-family: 'Handlee', cursive;
+}
+.about-blurb-par{
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(130, 130, 130);
+    font-family: 'Handlee', cursive;
+}
+.about-blurb-signature{
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    font-family: 'Handlee', cursive;
+}
