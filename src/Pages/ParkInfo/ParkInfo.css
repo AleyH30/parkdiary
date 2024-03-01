@@ -3,7 +3,6 @@
     position: relative;
     width: 80%;
     margin: 2% auto 0 auto;
-    border: solid 0.5px;
 }
 .pi-header-name{
     position: absolute;
@@ -50,7 +49,6 @@
     padding: 20px 25px;
 }
 .pi-header-contact-contents div{
-    background-color: rgb(180, 238, 175);
     font-size: 16px;
 }
 .pi-header-btn{
@@ -97,7 +95,6 @@
 .pi-cat-container{
     width: 80%;
     margin: 5% auto;
-    border: solid 0.5px rgb(59, 23, 45);
 
     display: flex;
     justify-content: space-between;
@@ -108,7 +105,6 @@
     flex-basis: 48%;
     font-size: 18px;
     line-height: 1.6;
-    border: 1px solid black;
 }
 .pi-cat-list-header{
     font-size: 20px;
@@ -125,7 +121,6 @@
 .pi-cat-img-container{
     flex-basis: 48%;
     height: 400px;
-    border: 5px solid black;
 }
 .pi-cat-img-container img{
     width: 100%;
