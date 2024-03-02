@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/parkdiary/static/css/main.1ceb77e6.css",
+    "main.css": "/parkdiary/static/css/main.04d62867.css",
     "main.js": "/parkdiary/static/js/main.2f778aec.js",
     "static/media/nature2_2.JPG": "/parkdiary/static/media/nature2_2.aa42c84da6b7a7144b0d.JPG",
     "static/media/cloud-placeholder.png": "/parkdiary/static/media/cloud-placeholder.6654ca87b3a415f86062.png",
@@ -13,11 +13,11 @@
     "static/media/nature1_4.jpg": "/parkdiary/static/media/nature1_4.8f523987b8b2ba92a5aa.jpg",
     "static/media/nature1_2.webp": "/parkdiary/static/media/nature1_2.b3b6f3dea711f83fd9d8.webp",
     "index.html": "/parkdiary/index.html",
-    "main.1ceb77e6.css.map": "/parkdiary/static/css/main.1ceb77e6.css.map",
+    "main.04d62867.css.map": "/parkdiary/static/css/main.04d62867.css.map",
     "main.2f778aec.js.map": "/parkdiary/static/js/main.2f778aec.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ceb77e6.css",
+    "static/css/main.04d62867.css",
     "static/js/main.2f778aec.js"
   ]
 }
