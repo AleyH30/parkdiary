@@ -1,6 +1,5 @@
 import React, {useContext, useState, useEffect} from 'react';
 import ParkResultCard from './Components/ParkResultCard/ParkResultsCard';
-import { Link } from 'react-router-dom';
 import { NPContext } from '../../Context/NPContext';
 import './SearchResults.css';
 import Navbar from '../0Components/Navbar/Navbar';

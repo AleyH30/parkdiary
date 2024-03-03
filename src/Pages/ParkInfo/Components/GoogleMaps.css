@@ -1,0 +1,14 @@
+.google-map-container{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto 50px auto;
+    border: rgb(220, 220, 220) solid 15px;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 825px){
+    .google-map-container{
+        width: 90%;
+    }
+}

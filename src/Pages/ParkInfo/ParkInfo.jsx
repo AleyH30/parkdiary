@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import './ParkInfo.css';
 import Navbar from '../0Components/Navbar/Navbar';
 import clouds_fillin from '../Home/0Components/Images/cloud-placeholder.png'
+import GoogleMap from './Components/GoogleMaps';
 
 const API_URL = "https://developer.nps.gov/api/v1/parks?";
 var key = "g1hqBjvInvDturvINyC5YGgIki3VPTerwGbl3dNx";
@@ -96,6 +97,13 @@ const ParkInfo = () => {
                             <p className='pi-cat-list-data'>{parkData[0].topics.map((item, i) => {return item.name + ", ";})}</p>
                         </div>
                     </div>
+                    <div className='pi-directions-container'>
+                        <p className='pi-info-title'>DIRECTIONS</p>
+                        <p className='pi-info'>{parkData[0].directionsInfo}</p>
+
+                    </div>
+                    <GoogleMap latNum={parkData[0].latitude} longNum={parkData[0].longitude}/>
+                    <footer><div>Made by ANH</div></footer>
                 </>}
         </div>
     )
