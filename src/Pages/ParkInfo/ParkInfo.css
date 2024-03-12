@@ -207,7 +207,7 @@ footer{
         font-size: 45px;
     }
     .pi-header-img-container{
-        max-height: 40vh;
+        max-height: 50vh;
     }
     .pi-header-contact-contents{
         flex-direction: column;
@@ -220,7 +220,7 @@ footer{
 
 }
 
-@media (max-width: 375px){
+@media (max-width: 345px){
     .pi-header-name{
         font-size: 30px;
     }
