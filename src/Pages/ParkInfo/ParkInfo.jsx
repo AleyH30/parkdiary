@@ -9,19 +9,15 @@ const API_URL = "https://developer.nps.gov/api/v1/parks?";
 var key = "g1hqBjvInvDturvINyC5YGgIki3VPTerwGbl3dNx";
 var checkUrl;
 
-// AIzaSyBggF__mwcBQbdUt8YeUxnhI81R4-au5cE google maps api key
-
 const ParkInfo = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [parkData, setParkData] = useState([]);
     const {parkCode} = useParams();
-    console.log(parkCode);
 
     const searchParks = async (pCode) => {
         const response = await fetch(checkUrl = (API_URL + "parkCode=" + pCode + "&api_key=" + key));
         const NPData = await response.json();
         setParkData(Array.from(NPData.data));
-        console.log(parkData);
         setIsLoading(false);
     }
 
@@ -98,9 +94,14 @@ const ParkInfo = () => {
                         </div>
                     </div>
                     <div className='pi-directions-container'>
-                        <p className='pi-info-title'>DIRECTIONS</p>
-                        <p className='pi-info'>{parkData[0].directionsInfo}</p>
+                        <div className='pi-info-group'>
+                            <p className='pi-info-title'>DIRECTIONS</p>
+                            <div className='pi-dir-res-wrap'>
+                                <p className='pi-dir-info'>{parkData[0].directionsInfo}</p>
+                                <a href={parkData[0].directionsUrl} target='_blank' rel='noreferrer'><button className='pi-dir-btn'>More Info</button></a>
+                            </div>
 
+                        </div>
                     </div>
                     <GoogleMap latNum={parkData[0].latitude} longNum={parkData[0].longitude}/>
                     <footer><div>Made by ANH</div></footer>
