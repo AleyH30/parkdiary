@@ -73,6 +73,7 @@
     border-radius: 20px;
     margin: 0 auto;
     padding: 30px 20px;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
@@ -149,6 +150,7 @@ footer{
     padding: 30px 20px;
     color: black;
     background-color: rgb(245, 245, 245);
+    overflow: hidden;
 
     display: flex;
     justify-content: space-around;
