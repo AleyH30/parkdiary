@@ -26,7 +26,6 @@ const SearchResults = () => {
         const response = await fetch(checkUrl = (API_URL + "&stateCode=" + parkState + "&q=" + title + "&api_key=" + key));
         const NPData = await response.json();
         setSearchData(Array.from(NPData.data));
-        console.log('this is the search data you need');
         console.log(searchData);
         setIsLoading(false);
     }
