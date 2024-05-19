@@ -1,7 +1,7 @@
 .navbar{
     position: sticky;
     top: 0;
-    height: 6vh;
+    height: 40px;
     width: 100%;
     background-color: white;
     border-bottom: solid 0.5px rgb(177, 177, 177);
