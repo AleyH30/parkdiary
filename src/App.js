@@ -10,6 +10,7 @@ import About from './Pages/About/About';
 
 const App = () => {
     return(
+        <div className='app'>
         <HashRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
@@ -19,6 +20,7 @@ const App = () => {
                 {/*<Route path='*' element={<NotFound />} />*/}
             </Routes>
         </HashRouter>
+        </div>
     )
 }
 
